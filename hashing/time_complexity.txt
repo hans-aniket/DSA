@@ -1,0 +1,11 @@
+Time complexity of map :-
+
+1.Storing
+2. Fetching
+both takes (logn)
+
+Average and best is O(1)
+in worst O(N);
+
+First preference should be unordered map but if it exceeds time complexity constraint we can use odered map 
+

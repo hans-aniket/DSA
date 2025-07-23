@@ -1,0 +1,11 @@
+hashing
+
+1. division method
+2. folding method
+3. mid square method
+
+ division method uses modulo
+ what if there are numbers with same unit digits?
+
+ chaining is the solution, it is done using linked list
+ 
