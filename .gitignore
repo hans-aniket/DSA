@@ -1,0 +1,32 @@
+# Compiled source files
+*.class
+*.o
+*.out
+*.exe
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code and other editor settings
+.vscode/
+*.swp
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git and system logs
+*.log
+
+# CMake or build tools
+build/
+cmake-build-*/
+
+# Personal
+*.bin
+*.save
+*.cache
