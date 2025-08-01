@@ -44,3 +44,6 @@ sorting/insertion_sort
 sorting/merge_sort
 sorting/quick_sort
 sorting/selection_sort
+
+# Ignore all compiled output
+build/
