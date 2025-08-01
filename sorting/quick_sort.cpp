@@ -64,3 +64,7 @@ place it in its correct place in array
 smaller on the left and larger on the right
 repeat again and again until sorted
 */
+
+/*
+time complexity: Nlogn
+*/
