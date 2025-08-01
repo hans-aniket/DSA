@@ -30,3 +30,17 @@ cmake-build-*/
 *.bin
 *.save
 *.cache
+
+# Ignore compiled files INSIDE the sorting directory
+
+# Executables with extensions
+sorting/*.exe
+sorting/*.out
+sorting/*.o
+
+# Executables without extensions
+sorting/bubble_sort
+sorting/insertion_sort
+sorting/merge_sort
+sorting/quick_sort
+sorting/selection_sort
