@@ -1,32 +1,12 @@
-# Compiled source files
-*.class
-*.o
-*.out
-*.exe
+# This tells Git to ignore everything in the project
+*
 
-# Python cache
-__pycache__/
-*.pyc
+# These are exception rules. They tell Git NOT to ignore files with these extensions.
+# Use these for your source code files.
+!*.cpp
+!*.h
+!*.hpp
 
-# VS Code and other editor settings
-.vscode/
-*.swp
-
-# Node.js
-node_modules/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Git and system logs
-*.log
-
-# CMake or build tools
-build/
-cmake-build-*/
-
-# Personal
-*.bin
-*.save
-*.cache
+# This rule is needed to allow directories to be seen by git status.
+# Without it, git will not see new folders if they only contain ignored files.
+!*/

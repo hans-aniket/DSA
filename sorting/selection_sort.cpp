@@ -39,3 +39,7 @@ int main(){
     get the minimum from the array and swap it with first element in array
     exculde 1st position and repeate the process for rest of the array untill the array is sorted
 */
+
+/*
+time complexity = O(n^2)
+*/
